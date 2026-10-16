@@ -26,12 +26,12 @@ export default function Skill(){
 
 
     return(
-        <section className='flex flex-col justify-center items-start px-6 md:px-8 lg:px-12 max-w-6xl mx-auto mb-10'>
+        <section className='flex flex-col justify-center items-start px-6 md:px-8 lg:px-12 max-w-6xl mx-auto'>
             <div className='space-y-3'>
                 <h1 className='text-3xl sm:text-4xl font-bold tracking-tight'>
                 Interactive Skill Matrix
             </h1>
-            <p className='text-sm font text-slate-400 sm:text-base'>
+            <p className='text-sm font text-slate-400 sm:text-base max-w-2xl'>
                 Click the categories below to filter through my frontend stack, state management tools, and core computer science subjects.
             </p>
             </div>
