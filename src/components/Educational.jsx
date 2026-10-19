@@ -26,7 +26,7 @@ export default function EducationTimeline() {
         <div className='col-span-2 space-y-7'>
 
           {/* Btech card */}
-          <div className='p-8 bg-slate-800/60 space-y-5 rounded-3xl border border-slate-500/30'>
+          <div className='p-8 bg-slate-900/60 space-y-5 rounded-3xl border border-slate-500/30 hover:border-slate-700 transition-all'>
             <div className='flex justify-between items-center'>
               <div className='w-12 h-12 flex justify-center items-center border border-emerald-800 bg-emerald-950/60 rounded-2xl text-emerald-400'>
                 <GraduationCap className='w-6 h-6' />
@@ -56,14 +56,14 @@ export default function EducationTimeline() {
           </div>
 
 
-          <div className='grid sm:grid-cols-2 gap-4'>
-            <div className='p-5 bg-slate-800/60 rounded-2xl border border-slate-500/30 space-y-2'>
+          <div className='grid sm:grid-cols-2 gap-4 '>
+            <div className='p-5 bg-slate-900/60 rounded-2xl border border-slate-500/30 hover:border-slate-700 transition-all space-y-2'>
               <span className='font-mono text-sm text-slate-500 uppercase'>intermediate</span>
-              <h5 className='text-white font-bold text-sm'>NSPS</h5>
+              <h5 className='text-white font-bold text-sm'>KCC</h5>
               <span className='text-xs text-slate-400 uppercase'>jamshedpur</span>
             </div>
-            <div className='p-5 bg-slate-800/60 rounded-2xl border border-slate-500/30  space-y-2'>
-              <span className='font-mono text-sm text-slate-500 uppercase'>intermediate</span>
+            <div className='p-5 bg-slate-900/60 rounded-2xl border border-slate-500/30 hover:border-slate-700 transition-all  space-y-2'>
+              <span className='font-mono text-sm text-slate-500 uppercase'>matriculation</span>
               <h5 className='text-white font-bold text-sm'>NSPS</h5><span className='text-xs text-slate-400 uppercase'>jamshedpur</span>
             </div>
 
@@ -71,7 +71,7 @@ export default function EducationTimeline() {
         </div>
         {/* Right side */}
 
-        <div className='bg-slate-800/60 rounded-2xl p-6 space-y-6'>
+        <div className='bg-slate-900/60 border border-slate-500/30 hover:border-slate-700 transition-all rounded-2xl p-6 space-y-6'>
           <div className='space-y-4'>
             <div className='flex items-center gap-3'>
               <BookOpen className='w-5 h-5 text-cyan-400' />

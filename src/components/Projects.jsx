@@ -60,7 +60,7 @@ export default function Projects() {
     return (
         <section id='projects' className='flex flex-col justify-center items-start px-6 md:px-8 lg:px-12 max-w-6xl mx-auto space-y-8 py-20'>
             <div className='space-y-2'>
-                <h2 className='text-4xl font-bold text-white tracking-tight'>Projects & Appplication</h2>
+                <h2 className='text-4xl font-bold text-white tracking-tight'>Projects & Application</h2>
                 <p className='text-sm sm:text-base text-slate-400 max-w-2xl'>Real-world applications built to demonstrate component composition, state management, and responsive UI design.</p>
             </div>
 
