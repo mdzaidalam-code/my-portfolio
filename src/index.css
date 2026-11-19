@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-midnight: #050b14;
+  --color-midnight-soft: #0b1523;
+  --color-panel: #0f1c2e;
+  --color-line: #1e2f45;
+}
+
+@utility glow-emerald {
+  box-shadow: 0 0 24px -4px rgba(16, 185, 129, 0.45);
+}
+
+@utility glow-cyan {
+  box-shadow: 0 0 24px -4px rgba(34, 211, 238, 0.4);
+}
+
+@utility text-glow {
+  text-shadow: 0 0 18px rgba(52, 211, 153, 0.35);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-midnight);
+}
+
+body {
+  background-color: var(--color-midnight);
+  color: #e2e8f0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+section[id] {
+  scroll-margin-top: 5rem;
+}
