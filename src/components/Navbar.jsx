@@ -28,7 +28,7 @@ export default function Navbar() {
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-colors duration-500 ${
         scrolled
-          ? "border-b border-line bg-midnight/30 backdrop-blur-xs"
+          ? "border-b border-line bg-midnight/40 backdrop-blur-xs"
           : "bg-[#1e3555a8]"
       }`}
     >
@@ -40,7 +40,7 @@ export default function Navbar() {
         <ul className="hidden items-center gap-8 md:flex">
             {links.map((link) =>
             (
-                <li key={link.href}>
+                <li key={link.href} className="transition-all duration-200 hover:scale-110">
 
                     <a href={link.href} className="text-sm font-semibold text-slate-300 transition-colors hover:text-emerald-400">
                         {link.label}</a>
