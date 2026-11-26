@@ -36,7 +36,7 @@ export default function Skills() {
                                 {skl.items.map((item) => (
                                 <li
                                 key={item}
-                                 className="px-4 py-1 text-sm text-slate-300 rounded-sm bg-midnight hover:border hover:border-cyan-300/40 hover:scale-110 transition-transform duration-500">
+                                 className="px-4 py-1 text-sm text-slate-300 rounded-sm bg-midnight-soft border border-cyan-300/20 hover:border-cyan-300/40 hover:scale-110 transition-transform duration-500">
                                     {item}
                                 </li>
                             ))}

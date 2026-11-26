@@ -42,14 +42,14 @@ export default function Hero() {
                 <p className="mb-10 max-w-xl text-lg text-slate-300">{profile.tagline}</p>
 
                 <div className='flex flex-wrap gap-5'>
-                    <a href='#projects' className='flex items-center gap-2 text-black px-6 py-3 bg-emerald-500 font-medium hover:bg-emerald-400 capitalize rounded-md transition-colors duration-400'>view projects <ArrowRight size={18} /></a>
+                    <a href='#projects' className='glow-emerald flex items-center gap-2 text-black px-6 py-3 bg-emerald-500 font-medium hover:bg-emerald-400 capitalize rounded-md transition-colors duration-400'>view projects <ArrowRight size={18} /></a>
                     <a href={profile.resumeFile} download className='flex items-center gap-2 text-cyan-400 px-6 py-3 border border-cyan-400/40 font-medium hover:bg-cyan-500/20 hover:border-cyan-400 capitalize rounded-md transition-colors duration-400'><Download size={18} /> download resume </a>
                 </div>
 
                 <div className='mt-10 flex items-center gap-5 text-slate-400 '>
-                    <a href={profile.github} className='hover:text-emerald-500 transition-colors duration-400'><FaGithub size={24} /></a>
-                    <a href={profile.linkedin} className='hover:text-emerald-500 transition-colors duration-400'><FaLinkedinIn size={24} /></a>
-                    <a href={profile.email} className='hover:text-emerald-500 transition-colors duration-400'><Mail size={24} /></a>
+                    <a href={profile.github} className='hover:text-emerald-500 hover:scale-150 hover:-rotate-25 transition-all duration-400'><FaGithub size={24} /></a>
+                    <a href={profile.linkedin} className='hover:text-emerald-500 hover:scale-150 hover:-rotate-25 transition-all duration-400'><FaLinkedinIn size={24} /></a>
+                    <a href={profile.email} className='hover:text-emerald-500 hover:scale-150 hover:-rotate-25 transition-all duration-400'><Mail size={24} /></a>
                 </div>
             </div>
         </section>

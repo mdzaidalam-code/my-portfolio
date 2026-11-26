@@ -1,11 +1,11 @@
 import About from "./components/About";
+import Education from "./components/Education";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 const placeholder = [
-  { id: "projects", title: "Projects" },
-  { id: "education", title: "Education" },
   { id: "contact", title: "Contact" },
 ];
 
@@ -17,6 +17,8 @@ export default function App() {
         <Hero/>
         <About/>
         <Skills/>
+        <Projects/>
+        <Education/>
         {placeholder.map((s) => (
           <section
             key={s.id}

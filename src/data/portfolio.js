@@ -48,11 +48,11 @@ export const projects = [
     stack: ["Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "bcrypt"],
     features: ["CRUD APIs", "Modular architecture", "Middleware", "Password hashing", "Protected routes"],
     repo: "https://github.com/mdzaidalam-code/backend-learning-90",
-    demo: "",
+    demo: "zaid",
   },
   {
     name: "AI-Powered Resume Builder",
-    status: "Planned",
+    status: "Completed",
     role: "Planned Solo Project",
     summary: "A MERN app that helps users build professional resumes with AI-assisted suggestions.",
     stack: ["React.js", "Node.js", "Express.js", "MongoDB", "AI API"],

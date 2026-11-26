@@ -8,7 +8,7 @@
 }
 
 @utility glow-emerald {
-  box-shadow: 0 0 24px -4px rgba(16, 185, 129, .5);
+  box-shadow: 0 0 24px -4px rgba(16, 185, 129, .6);
 }
 
 @utility glow-cyan {
